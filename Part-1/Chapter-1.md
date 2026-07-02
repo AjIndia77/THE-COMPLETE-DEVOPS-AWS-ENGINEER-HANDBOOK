@@ -26,14 +26,15 @@ Imagine you are hired as a Cloud/DevOps Intern. On Day 1, your manager says: "SS
 
 ## 1.4 Popular Linux Distributions (Distros)
 ```sh
-🦾 Distro                          | Based On    |Package Manager |Common Use Case
-1. Ubuntu                          | Debian      |apt(.deb)       |Cloud servers, general purpose, most beginner-friendly
-2. Debian                          | —(original) |apt(.deb)       |Stability-focused servers
-3. Red Hat Enterprise Linux (RHEL) | —(original) |dnf/yum (.rpm)  |Enterprise, banking, government (paid support)
-4. CentOS / CentOS Stream          | RHEL        |dnf/yum(.rpm)   |Free RHEL alternative (widely used before CentOS 8 EOL)
-5. Amazon Linux2/2023              |RHEL/Fedora  |dnf/yum(.rpm)   |AWS EC2 default, optimized for AWS
-6. Fedora                          |—(original)  |dnf(.rpm)       |Cutting-edge desktop/testing ground for RHEL
-7. Kali Linux                      |Debian       |apt(.deb)       |Penetration testing, security research
+🦾 Distro                           Based On     Package Manager  Common Use Case
+
+1. Ubuntu                            Debian       apt(.deb)        Cloud servers, general purpose, most beginner-friendly
+2. Debian                            —(original)  apt(.deb)        Stability-focused servers
+3. Red Hat Enterprise Linux (RHEL)   —(original)  dnf/yum (.rpm)   Enterprise, banking, government (paid support)
+4. CentOS / CentOS Stream            RHEL         dnf/yum(.rpm)    Free RHEL alternative (widely used before CentOS 8 EOL)
+5. Amazon Linux2/2023               RHEL/Fedora   dnf/yum(.rpm)    AWS EC2 default, optimized for AWS
+6. Fedora                           —(original)   dnf(.rpm)        Cutting-edge desktop/testing ground for RHEL
+7. Kali Linux                       Debian        apt(.deb)        Penetration testing, security research
 ```
 
 Important for your RHCSA background: Since you're RHCSA V9 and V10 certified, you already have strong RPM-based (Red Hat family) experience. This book will cover both the Debian family (apt) and Red Hat family (dnf/yum) commands side by side, since AWS interviews often expect you to know both — Amazon Linux is RPM-based, but Ubuntu (Debian-based) is the most common EC2 choice in the industry.
