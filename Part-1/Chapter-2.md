@@ -65,7 +65,7 @@ Output is sent back through the kernel to your terminal screen.
 
 Linux uses a monolithic kernel design (as opposed to a microkernel). This means most core services (file systems, device drivers, network stack) run in kernel space for performance, but Linux also supports Loadable Kernel Modules (LKMs) — pieces of code that can be added or removed from the kernel at runtime without rebooting (e.g., a new network card driver).
 ```bash
-bash# View loaded kernel modules
+# View loaded kernel modules
 lsmod
 ```
 
