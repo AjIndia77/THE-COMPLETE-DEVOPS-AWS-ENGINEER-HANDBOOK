@@ -72,16 +72,16 @@ lsmod
 ### View kernel version
 `uname -r`
 
-#### View full system information
+### View full system information
 `uname -a`
 
 Sample Output:
 
 `$ uname -a`
-```bash
-Linux ip-172-31-20-15 5.15.0-1041-aws #46-Ubuntu SMP x86_64 GNU/Linux
-```
-This tells you: kernel name (Linux), hostname (ip-172-31-20-15 — a typical AWS EC2 auto-generated hostname), kernel version (5.15.0-1041-aws — notice the "-aws" suffix showing this is an AWS-optimized kernel), and architecture (x86_64).
+
+> Linux ip-172-31-20-15 5.15.0-1041-aws #46-Ubuntu SMP x86_64 GNU/Linux
+
+> This tells you: kernel name (Linux), hostname (ip-172-31-20-15 — a typical AWS EC2 auto-generated hostname), kernel version (5.15.0-1041-aws — notice the "-aws" suffix showing this is an AWS-optimized kernel), and architecture (x86_64).
 
 ## 2.6 Best Practices
 
