@@ -114,7 +114,7 @@ Reading this: the first column shows permissions (Chapter 4 explains this fully)
 
 *Scenario:* You SSH into a new EC2 instance and are told "the application logs are filling up the disk." Walk through exactly which directories you'd check, which commands you'd run, and how you'd clean up safely without breaking the running application.
 
-(*Approach:* `df -h` to see which mount is full → `du -sh /var/log/* | sort -rh` to find biggest log directories → check if log rotation (`logrotate`) is configured → truncate or archive old logs rather than deleting files a process still has open, since that doesn't free disk space until the process is restarted.)
+>(*Approach:* `df -h` to see which mount is full → `du -sh /var/log/* | sort -rh` to find biggest log directories → check if log rotation (`logrotate`) is configured → truncate or archive old logs rather than deleting files a process still has open, since that doesn't free disk space until the process is restarted.)
 
 ## 3.11 Troubleshooting
 
