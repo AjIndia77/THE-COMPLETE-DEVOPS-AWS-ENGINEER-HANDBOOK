@@ -39,10 +39,10 @@ Breaking this down character by character:
  File Type (- = regular file, d = directory, l = symlink)
 ```
 
-Type: `-` → regular file
-Owner (`user`): `rwx` → read, write, execute (4+2+1 = 7)
-Group (`devops`): `r-x` → read, execute, no write (4+0+1 = 5)
-Others: `r--` → read only (4+0+0 = 4)
+- Type: `-` → regular file
+- Owner (`user`): `rwx` → read, write, execute (4+2+1 = 7)
+- Group (`devops`): `r-x` → read, execute, no write (4+0+1 = 5)
+- Others: `r--` → read only (4+0+0 = 4)
 
 
 So numerically this permission is **754**.
