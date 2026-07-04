@@ -127,30 +127,30 @@ chmod 1777 /tmp                   # Sticky bit (this is actually /tmp's default!
 ## 4.9 Best Practices
 
 
-- Never use chmod 777 on production files — it grants read/write/execute to literally everyone, a massive security hole. This is one of the most common mistakes junior engineers make and one of the most common interview "gotcha" questions.
-- Always use chmod 600 for private SSH keys (.pem, id_rsa) — SSH will actually refuse to use keys with looser permissions.
-- Use groups for team collaboration instead of loosening "others" permissions.
-- Use -R carefully — recursive chmod/chown on the wrong directory (like / by mistake) can break your entire system.
+- Never use `chmod 777` on production files — it grants read/write/execute to literally everyone, a massive security hole. This is one of the most common mistakes junior engineers make and one of the most common interview "gotcha" questions.
+- Always use `chmod 600` for private SSH keys (`.pem`, `id_rsa`) — SSH will actually refuse to use keys with looser permissions.
+- Use groups for team collaboration instead of loosening `"others"` permissions.
+- Use `-R` carefully — recursive chmod/chown on the wrong directory (like / by mistake) can break your entire system.
 
 
 ## 4.10 Common Mistakes
 
 
-- Running chmod 777 "just to make it work" instead of diagnosing the actual permission problem.
-- Forgetting that directories need execute (x) permission to be entered with cd, not just read — a very common source of confusion.
-- Changing ownership of system files (like /etc/passwd) by mistake, which can lock you out of the system.
-- Confusing chmod (permissions) with chown (ownership) — different commands, different jobs.
+- Running chmod `777` "just to make it work" instead of diagnosing the actual permission problem.
+- Forgetting that directories need execute (`x`) permission to be entered with cd, not just read — a very common source of confusion.
+- Changing ownership of system files (like `/etc/passwd`) by mistake, which can lock you out of the system.
+- Confusing `chmod` (permissions) with `chown` (ownership) — different commands, different jobs.
 
 
 ## 4.11 Interview Questions
 
 
-1. Explain the difference between chmod and chown.
-2. What does permission 755 mean in symbolic form?
-3. Why does SSH refuse to connect if your private key has permission 644?
-4. What is the SUID bit, and can you give a real example of where Linux uses it?
-5. Why is chmod 777 considered dangerous?
-6. What permission does a directory need for a user to cd into it?
+1. Explain the difference between `chmod` and `chown`.
+2. What does permission `755` mean in symbolic form?
+3. Why does SSH refuse to connect if your private key has permission `644`?
+4. What is the `SUID` bit, and can you give a real example of where Linux uses it?
+5. Why is chmod `777` considered dangerous?
+6. What permission does a directory need for a user to `cd` into it?
 7. How would you recursively give a web server user ownership of a directory?
 
 
