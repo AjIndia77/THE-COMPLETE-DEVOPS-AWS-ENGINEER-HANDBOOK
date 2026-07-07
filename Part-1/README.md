@@ -109,5 +109,5 @@ You've now covered the complete foundation every DevOps and Cloud engineer needs
 
 Every single AWS EC2 instance, Docker container, and Jenkins server you build in the rest of this book will depend on the skills in this Part. Before moving to Part 2 — AWS Cloud Fundamentals, make sure you can comfortably: SSH into a server, navigate the file system, check and fix permissions, manage a systemd service, write a basic bash deployment script, and install software with the correct package manager — all without looking anything up.
 
-Next up: [Part 2]()— AWS Cloud Fundamentals (EC2, VPC, S3, IAM, Security Groups, and the AWS CLI).
+Next up: [Part 2](https://github.com/AjIndia77/THE-COMPLETE-DEVOPS-AWS-ENGINEER-HANDBOOK/blob/main/Part-2)— AWS Cloud Fundamentals (EC2, VPC, S3, IAM, Security Groups, and the AWS CLI).
 
