@@ -166,8 +166,11 @@ Scenario: A new DevOps intern joins your team. They need to: (1) SSH into the sh
 ## 5.13 Troubleshooting
 
 ***Issue***: "username is not in the sudoers file. This incident will be reported."
+
 ***Fix***: Log in as an existing sudo user (or root) and add the user via usermod -aG sudo <username> (Ubuntu) or usermod -aG wheel <username> (RHEL/CentOS).
+
 ***Issue***: Docker commands still need sudo after adding user to the docker group.
+
 ***Fix***: The user must log out and log back in (or run newgrp docker) for group changes to apply to the active session.
 
 
