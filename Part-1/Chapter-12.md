@@ -103,7 +103,6 @@ Use :set number in vim when editing config files where line numbers matter for t
 
 12.9 Common Mistakes
 
-
 Opening vim, panicking, and not knowing how to exit (the classic "how do I get out of vim" meme) — remember: Esc then :q!.
 Editing /etc/ssh/sshd_config incorrectly and restarting SSH, locking yourself out of the server entirely (always test with sshd -t first, and never close your existing SSH session until you've verified a NEW connection works).
 Forgetting you're in Insert mode and typing commands as if in Normal mode, resulting in garbled text.
