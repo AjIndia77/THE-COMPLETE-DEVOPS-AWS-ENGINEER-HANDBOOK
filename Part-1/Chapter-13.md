@@ -11,8 +11,8 @@ Manually typing the same 10 commands every time you deploy an app is slow and er
 13.3 Your First Bash Script
 
 bash#!/bin/bash
-# This is a comment. The line above is called a "shebang" — it tells
-# the OS which interpreter to use to run this script.
+ This is a comment. The line above is called a "shebang" — it tells
+ the OS which interpreter to use to run this script.
 
 echo "Starting deployment..."
 cd /home/ubuntu/myapp
