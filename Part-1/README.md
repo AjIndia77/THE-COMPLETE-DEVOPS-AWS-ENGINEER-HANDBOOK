@@ -1,4 +1,4 @@
-### 🧐 TABLE OF CONTENTS — PART 1
+## 🧐 TABLE OF CONTENTS — PART 1
 
 
 1. [Introduction to Linux](./Chapter-01.md)
@@ -16,7 +16,9 @@
 13. [Bash Scripting & Environment Variables](./Chapter-13.md)
 14. [Package Management: apt, snap, Repositories](./Chapter-14.md)
 
-### 😎 PART 1 MASTER CHEAT SHEET
+
+
+## 😎 PART 1 MASTER CHEAT SHEET
 
 ```bash
 ### NAVIGATION ###
@@ -61,7 +63,8 @@ if [ cond ]; then ... fi | for i in list; do ... done | export VAR=value
 apt update && apt upgrade -y | apt install <pkg> -y | dnf install <pkg> -y | snap install <pkg>
 ```
 
-### 🦾 PART 1 — FULL INTERVIEW QUESTION BANK (Quick Revision)
+
+## 🦾 PART 1 — FULL INTERVIEW QUESTION BANK (Quick Revision)
 
 **Conceptual:**
 
@@ -98,7 +101,8 @@ apt update && apt upgrade -y | apt install <pkg> -y | dnf install <pkg> -y | sna
 25. A website returns 403 Forbidden after deployment — diagnose step by step.
 
 
-### 🙌 PART 1 — FINAL SUMMARY
+
+## 🙌 PART 1 — FINAL SUMMARY
 
 You've now covered the complete foundation every DevOps and Cloud engineer needs before touching AWS: how Linux is architected, how the file system is organized, how permissions and users protect the system, how to manage processes and services with systemctl/journalctl/cron, how to connect securely with SSH and move files with scp/rsync, how to archive and search through data with tar/grep/awk/sed/find, how to monitor system health, how to fetch data over the web with curl/wget, how to edit files with vim/nano, how to automate with bash scripting, and how to manage software with apt/dnf/snap.
 
