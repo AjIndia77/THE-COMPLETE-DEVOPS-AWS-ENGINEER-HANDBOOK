@@ -30,7 +30,7 @@ When you run `ls` in your terminal:
 
 The shell (bash) reads your input `ls`.
 
-Bash finds the `ls` binary (usually at `/bin/ls`) using the PATH environment variable (covered in [Chapter 13](./Chapter-13.md).
+Bash finds the `ls` binary (usually at `/bin/ls`) using the PATH environment variable (covered in [Chapter 13](./Chapter-13.md) ).
 
 The shell asks the kernel to create a new process for `ls`.
 
