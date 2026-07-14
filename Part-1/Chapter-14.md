@@ -70,7 +70,7 @@ apt vs snap — When to Use Which:
 
 | |apt |snap |
 |---|---|---|
-| |SpeedFast, lightweight |Slower to launch (sandboxed) |
+|Speed |Fast, lightweight |Slower to launch (sandboxed) |
 |Isolation |Shares system libraries |Fully sandboxed, bundles its own dependencies |
 |Auto-updates |Manual (apt upgrade) |Automatic by default |
 |Best for |Core system tools, servers |Desktop apps, cross-distro tools |
